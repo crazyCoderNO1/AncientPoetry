@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D0B4C502C3D99092FE19F2 /* libPods-AncientPoetryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C398D63D342065CE08E6581C /* libPods-AncientPoetryTests.a */; };
+		32A1FD64E3C6322481EAAC75 /* libPods-AncientPoetry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8767EE1AB1AF00E56980529B /* libPods-AncientPoetry.a */; };
+		41619354202EFF1700829FCE /* APPoetryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41619353202EFF1700829FCE /* APPoetryViewController.m */; };
+		417A3E58202EDEBB0048F253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E57202EDEBB0048F253 /* AppDelegate.m */; };
+		417A3E5B202EDEBB0048F253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E5A202EDEBB0048F253 /* ViewController.m */; };
+		417A3E5E202EDEBB0048F253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A3E5C202EDEBB0048F253 /* Main.storyboard */; };
+		417A3E60202EDEBB0048F253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A3E5F202EDEBB0048F253 /* Assets.xcassets */; };
+		417A3E63202EDEBB0048F253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A3E61202EDEBB0048F253 /* LaunchScreen.storyboard */; };
+		417A3E66202EDEBB0048F253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E65202EDEBB0048F253 /* main.m */; };
+		417A3E70202EDEBB0048F253 /* AncientPoetryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E6F202EDEBB0048F253 /* AncientPoetryTests.m */; };
+		417A3E7B202EDEBB0048F253 /* AncientPoetryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E7A202EDEBB0048F253 /* AncientPoetryUITests.m */; };
+		417A3E89202EE4320048F253 /* 1000.json in Resources */ = {isa = PBXBuildFile; fileRef = 417A3E88202EE4320048F253 /* 1000.json */; };
+		417A3E8D202EE9290048F253 /* APPeotryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E8C202EE9290048F253 /* APPeotryModel.m */; };
+		417A3E90202EECF10048F253 /* APPeotryStrainsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E8F202EECF10048F253 /* APPeotryStrainsModel.m */; };
+		417A3E93202EED400048F253 /* APParagraphsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A3E92202EED400048F253 /* APParagraphsModel.m */; };
+		DEF5C215C329A6E32ACAFCAD /* libPods-AncientPoetryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED5515EAFB340F699E9CCD1 /* libPods-AncientPoetryUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417A3E6C202EDEBB0048F253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417A3E4B202EDEBB0048F253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417A3E52202EDEBB0048F253;
+			remoteInfo = AncientPoetry;
+		};
+		417A3E77202EDEBB0048F253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417A3E4B202EDEBB0048F253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417A3E52202EDEBB0048F253;
+			remoteInfo = AncientPoetry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F38E14660A71CF6F56478F6 /* Pods-AncientPoetryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetryTests/Pods-AncientPoetryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41619352202EFF1700829FCE /* APPoetryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPoetryViewController.h; sourceTree = "<group>"; };
+		41619353202EFF1700829FCE /* APPoetryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPoetryViewController.m; sourceTree = "<group>"; };
+		417A3E53202EDEBB0048F253 /* AncientPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AncientPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A3E56202EDEBB0048F253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		417A3E57202EDEBB0048F253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		417A3E59202EDEBB0048F253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		417A3E5A202EDEBB0048F253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		417A3E5D202EDEBB0048F253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417A3E5F202EDEBB0048F253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417A3E62202EDEBB0048F253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417A3E64202EDEBB0048F253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A3E65202EDEBB0048F253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		417A3E6B202EDEBB0048F253 /* AncientPoetryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncientPoetryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A3E6F202EDEBB0048F253 /* AncientPoetryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AncientPoetryTests.m; sourceTree = "<group>"; };
+		417A3E71202EDEBB0048F253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A3E76202EDEBB0048F253 /* AncientPoetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncientPoetryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A3E7A202EDEBB0048F253 /* AncientPoetryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AncientPoetryUITests.m; sourceTree = "<group>"; };
+		417A3E7C202EDEBC0048F253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A3E88202EE4320048F253 /* 1000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1000.json; sourceTree = "<group>"; };
+		417A3E8B202EE9290048F253 /* APPeotryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPeotryModel.h; sourceTree = "<group>"; };
+		417A3E8C202EE9290048F253 /* APPeotryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPeotryModel.m; sourceTree = "<group>"; };
+		417A3E8E202EECF10048F253 /* APPeotryStrainsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPeotryStrainsModel.h; sourceTree = "<group>"; };
+		417A3E8F202EECF10048F253 /* APPeotryStrainsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPeotryStrainsModel.m; sourceTree = "<group>"; };
+		417A3E91202EED400048F253 /* APParagraphsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APParagraphsModel.h; sourceTree = "<group>"; };
+		417A3E92202EED400048F253 /* APParagraphsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APParagraphsModel.m; sourceTree = "<group>"; };
+		43EF7D568117833956745DA7 /* Pods-AncientPoetryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetryTests/Pods-AncientPoetryTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ED5515EAFB340F699E9CCD1 /* libPods-AncientPoetryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AncientPoetryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602FDEED2955F96AECF7F489 /* Pods-AncientPoetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetry/Pods-AncientPoetry.debug.xcconfig"; sourceTree = "<group>"; };
+		62081DF0CB7B9FA433D9639B /* Pods-AncientPoetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetry.release.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetry/Pods-AncientPoetry.release.xcconfig"; sourceTree = "<group>"; };
+		8767EE1AB1AF00E56980529B /* libPods-AncientPoetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AncientPoetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C398D63D342065CE08E6581C /* libPods-AncientPoetryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AncientPoetryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C770A5C142531933D8B25BE6 /* Pods-AncientPoetryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetryUITests/Pods-AncientPoetryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D28E046221522A2D33178FF8 /* Pods-AncientPoetryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AncientPoetryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AncientPoetryUITests/Pods-AncientPoetryUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417A3E50202EDEBB0048F253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1FD64E3C6322481EAAC75 /* libPods-AncientPoetry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E68202EDEBB0048F253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D0B4C502C3D99092FE19F2 /* libPods-AncientPoetryTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E73202EDEBB0048F253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF5C215C329A6E32ACAFCAD /* libPods-AncientPoetryUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB6DFA5F098B28EB82E576D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8767EE1AB1AF00E56980529B /* libPods-AncientPoetry.a */,
+				C398D63D342065CE08E6581C /* libPods-AncientPoetryTests.a */,
+				5ED5515EAFB340F699E9CCD1 /* libPods-AncientPoetryUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		417A3E4A202EDEBB0048F253 = {
+			isa = PBXGroup;
+			children = (
+				417A3E55202EDEBB0048F253 /* AncientPoetry */,
+				417A3E6E202EDEBB0048F253 /* AncientPoetryTests */,
+				417A3E79202EDEBB0048F253 /* AncientPoetryUITests */,
+				417A3E54202EDEBB0048F253 /* Products */,
+				80098CF59BE4507F25A72D0C /* Pods */,
+				0BB6DFA5F098B28EB82E576D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		417A3E54202EDEBB0048F253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417A3E53202EDEBB0048F253 /* AncientPoetry.app */,
+				417A3E6B202EDEBB0048F253 /* AncientPoetryTests.xctest */,
+				417A3E76202EDEBB0048F253 /* AncientPoetryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417A3E55202EDEBB0048F253 /* AncientPoetry */ = {
+			isa = PBXGroup;
+			children = (
+				417A3E8A202EE8F90048F253 /* model */,
+				417A3E88202EE4320048F253 /* 1000.json */,
+				417A3E56202EDEBB0048F253 /* AppDelegate.h */,
+				417A3E57202EDEBB0048F253 /* AppDelegate.m */,
+				417A3E59202EDEBB0048F253 /* ViewController.h */,
+				417A3E5A202EDEBB0048F253 /* ViewController.m */,
+				417A3E5C202EDEBB0048F253 /* Main.storyboard */,
+				417A3E5F202EDEBB0048F253 /* Assets.xcassets */,
+				417A3E61202EDEBB0048F253 /* LaunchScreen.storyboard */,
+				417A3E64202EDEBB0048F253 /* Info.plist */,
+				417A3E65202EDEBB0048F253 /* main.m */,
+				41619352202EFF1700829FCE /* APPoetryViewController.h */,
+				41619353202EFF1700829FCE /* APPoetryViewController.m */,
+			);
+			path = AncientPoetry;
+			sourceTree = "<group>";
+		};
+		417A3E6E202EDEBB0048F253 /* AncientPoetryTests */ = {
+			isa = PBXGroup;
+			children = (
+				417A3E6F202EDEBB0048F253 /* AncientPoetryTests.m */,
+				417A3E71202EDEBB0048F253 /* Info.plist */,
+			);
+			path = AncientPoetryTests;
+			sourceTree = "<group>";
+		};
+		417A3E79202EDEBB0048F253 /* AncientPoetryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417A3E7A202EDEBB0048F253 /* AncientPoetryUITests.m */,
+				417A3E7C202EDEBC0048F253 /* Info.plist */,
+			);
+			path = AncientPoetryUITests;
+			sourceTree = "<group>";
+		};
+		417A3E8A202EE8F90048F253 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				417A3E8B202EE9290048F253 /* APPeotryModel.h */,
+				417A3E8C202EE9290048F253 /* APPeotryModel.m */,
+				417A3E8E202EECF10048F253 /* APPeotryStrainsModel.h */,
+				417A3E8F202EECF10048F253 /* APPeotryStrainsModel.m */,
+				417A3E91202EED400048F253 /* APParagraphsModel.h */,
+				417A3E92202EED400048F253 /* APParagraphsModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		80098CF59BE4507F25A72D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				602FDEED2955F96AECF7F489 /* Pods-AncientPoetry.debug.xcconfig */,
+				62081DF0CB7B9FA433D9639B /* Pods-AncientPoetry.release.xcconfig */,
+				3F38E14660A71CF6F56478F6 /* Pods-AncientPoetryTests.debug.xcconfig */,
+				43EF7D568117833956745DA7 /* Pods-AncientPoetryTests.release.xcconfig */,
+				C770A5C142531933D8B25BE6 /* Pods-AncientPoetryUITests.debug.xcconfig */,
+				D28E046221522A2D33178FF8 /* Pods-AncientPoetryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417A3E52202EDEBB0048F253 /* AncientPoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A3E7F202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetry" */;
+			buildPhases = (
+				5DF939C2B64AD73FE9242450 /* [CP] Check Pods Manifest.lock */,
+				417A3E4F202EDEBB0048F253 /* Sources */,
+				417A3E50202EDEBB0048F253 /* Frameworks */,
+				417A3E51202EDEBB0048F253 /* Resources */,
+				ED44E6371740B2295852AB3E /* [CP] Embed Pods Frameworks */,
+				DDE25523E633BC527045F45E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AncientPoetry;
+			productName = AncientPoetry;
+			productReference = 417A3E53202EDEBB0048F253 /* AncientPoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417A3E6A202EDEBB0048F253 /* AncientPoetryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A3E82202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetryTests" */;
+			buildPhases = (
+				C59C63584FC4C7F3185F76BB /* [CP] Check Pods Manifest.lock */,
+				417A3E67202EDEBB0048F253 /* Sources */,
+				417A3E68202EDEBB0048F253 /* Frameworks */,
+				417A3E69202EDEBB0048F253 /* Resources */,
+				4B0266EA3D3E1B90CA8BB974 /* [CP] Embed Pods Frameworks */,
+				A00A3E3A7E1F52587379437D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417A3E6D202EDEBB0048F253 /* PBXTargetDependency */,
+			);
+			name = AncientPoetryTests;
+			productName = AncientPoetryTests;
+			productReference = 417A3E6B202EDEBB0048F253 /* AncientPoetryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417A3E75202EDEBB0048F253 /* AncientPoetryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A3E85202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetryUITests" */;
+			buildPhases = (
+				5874FD398D63102E659931F0 /* [CP] Check Pods Manifest.lock */,
+				417A3E72202EDEBB0048F253 /* Sources */,
+				417A3E73202EDEBB0048F253 /* Frameworks */,
+				417A3E74202EDEBB0048F253 /* Resources */,
+				3619E59FFA16D480D9B0A1F8 /* [CP] Embed Pods Frameworks */,
+				06C02C234B115AD2903CBF2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417A3E78202EDEBB0048F253 /* PBXTargetDependency */,
+			);
+			name = AncientPoetryUITests;
+			productName = AncientPoetryUITests;
+			productReference = 417A3E76202EDEBB0048F253 /* AncientPoetryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417A3E4B202EDEBB0048F253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aka;
+				TargetAttributes = {
+					417A3E52202EDEBB0048F253 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					417A3E6A202EDEBB0048F253 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417A3E52202EDEBB0048F253;
+					};
+					417A3E75202EDEBB0048F253 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417A3E52202EDEBB0048F253;
+					};
+				};
+			};
+			buildConfigurationList = 417A3E4E202EDEBB0048F253 /* Build configuration list for PBXProject "AncientPoetry" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417A3E4A202EDEBB0048F253;
+			productRefGroup = 417A3E54202EDEBB0048F253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417A3E52202EDEBB0048F253 /* AncientPoetry */,
+				417A3E6A202EDEBB0048F253 /* AncientPoetryTests */,
+				417A3E75202EDEBB0048F253 /* AncientPoetryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417A3E51202EDEBB0048F253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A3E63202EDEBB0048F253 /* LaunchScreen.storyboard in Resources */,
+				417A3E60202EDEBB0048F253 /* Assets.xcassets in Resources */,
+				417A3E5E202EDEBB0048F253 /* Main.storyboard in Resources */,
+				417A3E89202EE4320048F253 /* 1000.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E69202EDEBB0048F253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E74202EDEBB0048F253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C02C234B115AD2903CBF2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetryUITests/Pods-AncientPoetryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3619E59FFA16D480D9B0A1F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetryUITests/Pods-AncientPoetryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0266EA3D3E1B90CA8BB974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetryTests/Pods-AncientPoetryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5874FD398D63102E659931F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF939C2B64AD73FE9242450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A00A3E3A7E1F52587379437D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetryTests/Pods-AncientPoetryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59C63584FC4C7F3185F76BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE25523E633BC527045F45E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetry/Pods-AncientPoetry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED44E6371740B2295852AB3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AncientPoetry/Pods-AncientPoetry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417A3E4F202EDEBB0048F253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A3E5B202EDEBB0048F253 /* ViewController.m in Sources */,
+				41619354202EFF1700829FCE /* APPoetryViewController.m in Sources */,
+				417A3E66202EDEBB0048F253 /* main.m in Sources */,
+				417A3E90202EECF10048F253 /* APPeotryStrainsModel.m in Sources */,
+				417A3E58202EDEBB0048F253 /* AppDelegate.m in Sources */,
+				417A3E8D202EE9290048F253 /* APPeotryModel.m in Sources */,
+				417A3E93202EED400048F253 /* APParagraphsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E67202EDEBB0048F253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A3E70202EDEBB0048F253 /* AncientPoetryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A3E72202EDEBB0048F253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A3E7B202EDEBB0048F253 /* AncientPoetryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417A3E6D202EDEBB0048F253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417A3E52202EDEBB0048F253 /* AncientPoetry */;
+			targetProxy = 417A3E6C202EDEBB0048F253 /* PBXContainerItemProxy */;
+		};
+		417A3E78202EDEBB0048F253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417A3E52202EDEBB0048F253 /* AncientPoetry */;
+			targetProxy = 417A3E77202EDEBB0048F253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417A3E5C202EDEBB0048F253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417A3E5D202EDEBB0048F253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417A3E61202EDEBB0048F253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417A3E62202EDEBB0048F253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417A3E7D202EDEBC0048F253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		417A3E7E202EDEBC0048F253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417A3E80202EDEBC0048F253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602FDEED2955F96AECF7F489 /* Pods-AncientPoetry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417A3E81202EDEBC0048F253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62081DF0CB7B9FA433D9639B /* Pods-AncientPoetry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		417A3E83202EDEBC0048F253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F38E14660A71CF6F56478F6 /* Pods-AncientPoetryTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncientPoetry.app/AncientPoetry";
+			};
+			name = Debug;
+		};
+		417A3E84202EDEBC0048F253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EF7D568117833956745DA7 /* Pods-AncientPoetryTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncientPoetry.app/AncientPoetry";
+			};
+			name = Release;
+		};
+		417A3E86202EDEBC0048F253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C770A5C142531933D8B25BE6 /* Pods-AncientPoetryUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AncientPoetry;
+			};
+			name = Debug;
+		};
+		417A3E87202EDEBC0048F253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28E046221522A2D33178FF8 /* Pods-AncientPoetryUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2XBEJ6876;
+				INFOPLIST_FILE = AncientPoetryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music.linyu.AncientPoetryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AncientPoetry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417A3E4E202EDEBB0048F253 /* Build configuration list for PBXProject "AncientPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A3E7D202EDEBC0048F253 /* Debug */,
+				417A3E7E202EDEBC0048F253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A3E7F202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A3E80202EDEBC0048F253 /* Debug */,
+				417A3E81202EDEBC0048F253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A3E82202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A3E83202EDEBC0048F253 /* Debug */,
+				417A3E84202EDEBC0048F253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A3E85202EDEBC0048F253 /* Build configuration list for PBXNativeTarget "AncientPoetryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A3E86202EDEBC0048F253 /* Debug */,
+				417A3E87202EDEBC0048F253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417A3E4B202EDEBB0048F253 /* Project object */;
+}
